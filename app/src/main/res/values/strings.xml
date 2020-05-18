@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MwstRechner</string>
+    <string name="pEingabeaufforderung">
+        Geben Sie den Brutto- oder Nettobetrag ein</string>
+    <string name="pBetrag">pBetrag</string>
+    <string name="pNetto">Netto</string>
+    <string name="pBrutto">Brutto</string>
+    <string name="pBerechnen">Berechnen</string>
+    <string name="pMwSt">Mwst</string>
+    <string name="pErgebnisHeader">Ergebnis</string>
+</resources>

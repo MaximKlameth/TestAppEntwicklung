@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- res/layout/lay_ausgabe.xml steuert die Anzeige des Ergebnisses -->
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width= "fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/pErgebnisHeader"/>
+
+    <TableRow android:layout_marginTop="15dp">
+        <TextView android:layout_width ="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pNetto"/>
+        <TextView android:id="@+id/txtNetto"
+            android:layout_width ="fill_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+        <TextView android:layout_width ="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pMwSt"/>
+        <TextView android:id="@+id/txtSteuer"
+            android:layout_width ="fill_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+        <TextView android:layout_width ="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pBrutto"/>
+        <TextView android:id="@+id/txtBrutto"
+            android:layout_width ="fill_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+</TableLayout>
