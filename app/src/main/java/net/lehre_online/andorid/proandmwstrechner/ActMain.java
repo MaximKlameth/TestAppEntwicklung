@@ -28,7 +28,7 @@ public class ActMain extends AppCompatActivity {
 
 
 
-    static final boolean DBG        = true;
+    static final boolean DBG        = false;
     static final String TAG         = "ActMain";
     static final String KEY_BRUTTO  = "brutto";
     static final String KEY_NETTO   = "netto";
